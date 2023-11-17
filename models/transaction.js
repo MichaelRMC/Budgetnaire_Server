@@ -21,7 +21,6 @@ module.exports = [
 		category: "Income",
 	},
 	{
-
 		item_name: "Payment",
 		amount: "$29.31",
 		date: "10/05/2022",
@@ -49,7 +48,7 @@ module.exports = [
 		business: "Landlord",
 		category: "Housing",
 	},
-	{	
+	{
 		item_name: "Payment",
 		amount: "$132.00",
 		date: "01/14/2023",
@@ -83,5 +82,5 @@ module.exports = [
 		date: "04/25/2023",
 		business: "ConEd",
 		category: "Utilities",
-	}
-]
+	},
+];
