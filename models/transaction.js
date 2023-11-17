@@ -17,11 +17,11 @@ module.exports = [
 	},
 	{
 		id: "01HD6B0N5TRX7251NNBJAB51Y0",
-		item_name: "Withdrawal",
-		amount: "$50.00",
+		item_name: "Income",
+		amount: "$2,788",
 		date: "02/25/2023",
-		business: "ATM",
-		category: "Personal",
+		business: "Employer",
+		category: "Income",
 	},
 	{
 		id: "01HD6B0N5T5SX9DW2VAEJVW8R9",
@@ -81,7 +81,7 @@ module.exports = [
 	},
 	{
 		id: "01HD6B0N61WQEY9N52HDTWYXC7",
-		item_name: "Income",
+		item_name: "Payment",
 		amount: "$563.00",
 		date: "02/17/2023",
 		business: "Fedelis",
@@ -89,7 +89,7 @@ module.exports = [
 	},
 	{
 		id: "01HD6B0N62NGGS8J7KBNZA6K43",
-		item_name: "Income",
+		item_name: "Payment",
 		amount: "100.00",
 		date: "04/25/2023",
 		business: "ConEd",
