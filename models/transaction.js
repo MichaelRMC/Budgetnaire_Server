@@ -65,7 +65,7 @@ module.exports = [
 	},
 	{
 		id: "01HD6B0N5YS08TZJGY43B3H12W",
-		item_name: "Withdrawal",
+		item_name: "Payment",
 		amount: "$21.59",
 		date: "04/09/2023",
 		business: "Hulu/Disney+",
