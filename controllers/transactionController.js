@@ -12,18 +12,18 @@ transactions.post("/", (req, res) => {
 
 })
 
-transactions.get("/:id", (req, res) => {
+transactions.get("/:index", (req, res) => {
 	const {index} = req.params;
 	res.status(200).json(transactionArray[index])
 })
 
-transactions.put("/:id", (req, res) => {
+transactions.put("/:index", (req, res) => {
 	const {index} = req.params;
 	transactionArray[index] = res.body
 	res.status(200).json(transactionArray[index])
 })
 
-transactions.delete("/:id", (req, res) => {
+transactions.delete("/:index", (req, res) => {
   const { index } = req.params;
   const disputedTransaction = transactionArray.splice(index, 1);
   res.status(200).json(disputedTransaction[0]);
