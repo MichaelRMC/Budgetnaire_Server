@@ -19,7 +19,7 @@ transactions.get("/:id", (req, res) => {
 
 transactions.put("/:id", (req, res) => {
 	const {index} = req.params;
-	transactionArray[index] =res.body
+	transactionArray[index] = res.body
 	res.status(200).json(transactionArray[index])
 })
 
